@@ -1,0 +1,76 @@
+#\#CIF_2.0
+# Created by the Bilbao Crystallographic Server
+
+data_XXX
+
+_space_group_spin.transform_spinframe_P_abc  'a,b,c'
+_space_group_spin.collinear_direction  "nx,0,nz"
+_space_group_spin.coplanar_perp_uvw  .
+_space_group_spin.rotation_axis  "0,1,0"
+_space_group_spin.rotation_angle 0
+
+
+_space_group_spin.number_SpSG_Chen  "129.139.2.1.L"
+_space_group_spin.name_SpSG_Chen    ?
+
+_cell_length_a                 4.514(1)
+_cell_length_b                 4.51400
+_cell_length_c                 16.272(3)
+_cell_angle_alpha              90.00
+_cell_angle_beta               90.00
+_cell_angle_gamma              90.00
+
+loop_
+_space_group_symop_spin_operation.id
+_space_group_symop_spin_operation.xyz
+_space_group_symop_spin_operation.uvw
+  1   x,y,z,+1                      u,v,w
+   2   -x,-y,z,+1                   u,v,w
+   3   -x+1/2,y+1/2,-z+1/2,+1		u,v,w
+   4   -y+1/2,-x+1/2,-z+1/2,+1		u,v,w
+   5   -y,x,z,+1					u,v,w
+   6   y,-x,z,+1					u,v,w
+   7   y+1/2,x+1/2,-z+1/2,+1		u,v,w
+   8   x+1/2,-y+1/2,-z+1/2,+1		u,v,w
+   9   -x+1/2,-y+1/2,-z+1/2,+1		u,v,w
+  10   x+1/2,y+1/2,-z+1/2,+1		u,v,w
+  11   x,-y,z,+1					u,v,w
+  12   y,x,z,+1						u,v,w
+  13   y+1/2,-x+1/2,-z+1/2,+1		u,v,w
+  14   -y+1/2,x+1/2,-z+1/2,+1		u,v,w
+  15   -y,-x,z,+1					u,v,w
+  16   -x,y,z,+1					u,v,w
+loop_
+_space_group_symop_spin_lattice.id
+_space_group_symop_spin_lattice.xyz
+_space_group_symop_spin_lattice.uvw
+1 x,y,z,+1 u,v,w
+2 x+1/2,y+1/2,z+1/2,-1 -u,-v,-w
+
+loop_
+_atom_type_symbol
+Pr 
+Mg
+Pb
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Pr1 Pr 0.00000 0.00000 0.335(1) 1
+Mg1 Mg 0.00000 0.50000 0.00000 1
+Pb1 Pb 0.00000 0.00000 0.134(1) 1
+
+loop_
+_atom_site_spin_moment.label
+_atom_site_spin_moment.axis_u
+_atom_site_spin_moment.axis_v
+_atom_site_spin_moment.axis_w
+_atom_site_spin_moment.symmform_uvw
+_atom_site_spin_moment.magnitude
+Pr1 1.53 0.0 0.95 ? 1.80 
+
+

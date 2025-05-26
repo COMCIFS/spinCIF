@@ -1,0 +1,106 @@
+#\#CIF_2.0
+# Created by the Bilbao Crystallographic Server
+
+data_XXX
+
+_space_group_spin.transform_spinframe_P_abc  'a,b,c'
+_space_group_spin.collinear_direction .
+_space_group_spin.coplanar_perp_uvw "0,0,1"
+_space_group_spin.rotation_axis  ?
+_space_group_spin.rotation_angle ?
+
+
+_space_group_spin.number_SpSG_Chen  "143.147.12.P"
+_space_group_spin.name_SpSG_Chen     ?
+
+_cell_length_a             15.342
+_cell_length_b             15.342
+_cell_length_c             28.692
+_cell_angle_alpha          90.00
+_cell_angle_beta           90.00
+_cell_angle_gamma          120.00
+
+loop_
+_space_group_symop_spin_operation.id
+_space_group_symop_spin_operation.xyz
+_space_group_symop_spin_operation.uvw
+   1   x,y,z,+1         u,v,w
+   2   -y,x-y,z,+1      u,v,w
+   3   -x+y,-x,z,+1     u,v,w
+   4   -x,-y,-z,+1      u-v,-v,-w  
+   5   y,-x+y,-z,+1     u-v,-v,-w   
+   6   x-y,x,-z,+1      u-v,-v,-w    
+   
+
+loop_
+_space_group_symop_spin_lattice.id
+_space_group_symop_spin_lattice.xyz
+_space_group_symop_spin_lattice.uvw
+1 x,y,z,+1              u,v,w
+2 x+1/3,y,z,+1         -v,u-v,w
+3 x,y+1/3,z,+1         -v,u-v,w
+4 x+1/3,y+1/3,z,+1     -u+v,-u,w  
+5 x+2/3,y,z,+1         -u+v,-u,w 
+6 x,y+2/3,z,+1         -u+v,-u,w 
+7 x+2/3,y+1/3,z,+1      u,v,w 
+8 x+1/3,y+2/3,z,+1      u,v,w 
+9 x+2/3,y+2/3,z,+1     -v,u-v,w
+10 x,y,z+1/4,+1          1/sqrt(3)u-2/sqrt(3)v,2/sqrt(3)u-1/sqrt(3)v,w
+11 x+1/3,y,z+1/4,+1      -2/sqrt(3)u+1/sqrt(3)v,-1/sqrt(3)u-1/sqrt(3)v,w
+12 x,y+1/3,z+1/4,+1      -2/sqrt(3)u+1/sqrt(3)v,-1/sqrt(3)u-1/sqrt(3)v,w
+13 x+1/3,y+1/3,z+1/4,+1  1/sqrt(3)u+1/sqrt(3)v,-1/sqrt(3)u+2/sqrt(3)v,w 
+14 x+2/3,y,z+1/4,+1      1/sqrt(3)u+1/sqrt(3)v,-1/sqrt(3)u+2/sqrt(3)v,w 
+15 x,y+2/3,z+1/4,+1      1/sqrt(3)u+1/sqrt(3)v,-1/sqrt(3)u+2/sqrt(3)v,w 
+16 x+2/3,y+1/3,z+1/4,+1  1/sqrt(3)u-2/sqrt(3)v,2/sqrt(3)u-1/sqrt(3)v,w
+17 x+1/3,y+2/3,z+1/4,+1  1/sqrt(3)u-2/sqrt(3)v,2/sqrt(3)u-1/sqrt(3)v,w
+18 x+2/3,y+2/3,z+1/4,+1      -2/sqrt(3)u+1/sqrt(3)v,-1/sqrt(3)u-1/sqrt(3)v,w 
+19 x,y,z+1/2,+1          -u,-v,w
+20 x+1/3,y,z+1/2,+1      v,-u+v,w
+21 x,y+1/3,z+1/2,+1      v,-u+v,w
+22 x+1/3,y+1/3,z+1/2,+1  u-v,u,w  
+23 x+2/3,y,z+1/2,+1      u-v,u,w 
+24 x,y+2/3,z+1/2,+1      u-v,u,w 
+25 x+2/3,y+1/3,z+1/2,+1  -u,-v,w 
+26 x+1/3,y+2/3,z+1/2,+1   -u,-v,w 
+27 x+2/3,y+2/3,z+1/2,+1  v,-u+v,w
+28 x,y,z+3/4,+1          -1/sqrt(3)u+2/sqrt(3)v,-2/sqrt(3)u+1/sqrt(3)v,w
+29 x+1/3,y,z+3/4,+1        2/sqrt(3)u-1/sqrt(3)v,1/sqrt(3)u+1/sqrt(3)v,w
+30 x,y+1/3,z+3/4,+1        2/sqrt(3)u-1/sqrt(3)v,1/sqrt(3)u+1/sqrt(3)v,w
+31 x+1/3,y+1/3,z+3/4,+1   -1/sqrt(3)u-1/sqrt(3)v,1/sqrt(3)u-2/sqrt(3)v,w 
+32 x+2/3,y,z+3/4,+1       -1/sqrt(3)u-1/sqrt(3)v,1/sqrt(3)u-2/sqrt(3)v,w 
+33 x,y+2/3,z+3/4,+1       -1/sqrt(3)u-1/sqrt(3)v,1/sqrt(3)u-2/sqrt(3)v,w 
+34 x+2/3,y+1/3,z+3/4,+1   -1/sqrt(3)u+2/sqrt(3)v,-2/sqrt(3)u+1/sqrt(3)v,w
+35 x+1/3,y+2/3,z+3/4,+1   -1/sqrt(3)u+2/sqrt(3)v,-2/sqrt(3)u+1/sqrt(3)v,w
+36 x+2/3,y+2/3,z+3/4,+1    2/sqrt(3)u-1/sqrt(3)v,1/sqrt(3)u+1/sqrt(3)v,w
+
+loop_
+_atom_type_symbol
+K
+Fe
+P
+F
+O  
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+K1	K	0.000000	0.000000	0.125000  1
+Fe1	Fe	0.000000	0.000000	0.000000  1
+P1	P	0.111111	0.222223	0.052100  1
+F1	F	0.111111	0.222223	0.107575  1
+O1	O	0.038000	-0.080667	0.044625  1
+
+loop_
+_atom_site_spin_moment.label
+_atom_site_spin_moment.axis_u
+_atom_site_spin_moment.axis_v
+_atom_site_spin_moment.axis_w
+_atom_site_spin_moment.symmform_uvw
+_atom_site_spin_moment.magnitude
+Fe1 2.0 0.0 0.0 u,0,0  2.0
+
+

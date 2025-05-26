@@ -1,0 +1,79 @@
+#\#CIF_2.0
+# Created by the Bilbao Crystallographic Server
+
+data_XXX
+
+_space_group_spin.transform_spinframe_P_abc  'a,b,axb'
+_space_group_spin.collinear_direction .
+_space_group_spin.coplanar_perp_uvw "0,0,1"
+_space_group_spin.rotation_axis  ?
+_space_group_spin.rotation_angle ?
+
+
+_space_group_spin.number_SpSG_Chen  "2.10.2.n?"
+_space_group_spin.name_SpSG_Chen     ?
+
+_cell_length_a                 10.7414
+_cell_length_b                 18.5782
+_cell_length_c                 5.65330
+_cell_angle_alpha              90.0000
+_cell_angle_beta               108.566
+_cell_angle_gamma              90.0000
+
+loop_
+_space_group_symop_spin_operation.id
+_space_group_symop_spin_operation.xyz
+_space_group_symop_spin_operation.uvw
+1 x,y,z,+1     u,v,w  
+2 -x,-y,-z,+1 -u,-v,w
+3 x,-y,z,+1   -u,v,-w  
+4 -x,y,-z,+1   u,-v,-w  
+   
+
+loop_
+_space_group_symop_spin_lattice.id
+_space_group_symop_spin_lattice.xyz
+_space_group_symop_spin_lattice.uvw
+1 x,y,z,+1              u,v,w
+2 x+1/2,y,z,+1         -u,-v,w
+3 x,y+1/2,z,+1         -u,-v,w
+4 x+1/2,y+1/2,z,+1      u,v,w
+
+loop_
+_atom_type_symbol
+Co
+Sb
+O
+Na
+ 
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Co1_1 Co 0.00000 0.33335 0.00000 1
+Co1_2 Co 0.25000 0.58335 0.00000 1
+Sb2_1 Sb 0.00000 0.00000 0.00000 1
+Sb2_2 Sb 0.25000 0.25000 0.00000 1
+O1_1 O 0.13650 0.17060 0.79470 1
+O1_2 O 0.38650 0.42060 0.79470 1
+O2_1 O 0.37555 0.00000 0.20440 1
+O2_2 O 0.62555 0.25000 0.20440 1
+Na1_1 Na 0.00000 0.25000 0.50000 1
+Na1_2 Na 0.25000 0.00000 0.50000 1
+Na2_1 Na 0.00000 0.41380 0.50000 1
+Na2_2 Na 0.25000 0.66380 0.50000 1
+
+loop_
+_atom_site_spin_moment.label
+_atom_site_spin_moment.axis_u
+_atom_site_spin_moment.axis_v
+_atom_site_spin_moment.axis_w
+_atom_site_spin_moment.symmform_uvw
+_atom_site_spin_moment.magnitude
+Co1_1 0.69 0.0 0.0 u,0,0 0.69 
+Co1_2 0.0 1.27 0.0 0,v,0 1.27
+
