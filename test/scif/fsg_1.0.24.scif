@@ -1,0 +1,104 @@
+#\#CIF_2.0
+## CIF file created by Jmol 16.3.27  2025-06-10 09:44
+data_global
+
+_space_group_spin.transform_spinframe_P_abc   a,b,c
+_space_group_spin.collinear_direction         .
+_space_group_spin.coplanar_perp_uvw           0,0,1
+_space_group_spin.rotation_axis_cartn         ?
+_space_group_spin.rotation_angle              ?
+_space_group_spin.number_SpSG_Chen            174.194.3.?
+_space_group_spin.name_SpSG_Chen              
+;
+P^2_(5π/6)6_3/^1m^2_(π/3)m^2_001c|(3^1_001,3^1_001,1)^m1
+;
+
+
+_cell_length_a                16.455
+_cell_length_b                16.455
+_cell_length_c                 8.896
+_cell_angle_alpha             90.0
+_cell_angle_beta              90.0
+_cell_angle_gamma            120.0
+
+loop_
+_space_group_symop_spin_operation.id
+_space_group_symop_spin_operation.xyzt
+_space_group_symop_spin_operation.uvw_id
+1   x,y,z,+1                       1   
+2   -x,-y,-z,+1                    2   
+3   x-y,x,z+0.5,+1                 2   
+4   -x+y,-x,-z+0.5,+1              1   
+5   -y,x-y,z,+1                    1   
+6   y,-x+y,-z,+1                   2   
+7   -x,-y,z+0.5,+1                 2   
+8   x,y,-z+0.5,+1                  1   
+9   -x+y,-x,z,+1                   1   
+10  x-y,x,-z,+1                    2   
+11  y,-x+y,z+0.5,+1                2   
+12  -y,x-y,-z+0.5,+1               1   
+13  -y,-x,-z+0.5,+1                3   
+14  y,x,z+0.5,+1                   4   
+15  -x,-x+y,-z,+1                  4   
+16  x,x-y,z,+1                     3   
+17  -x+y,y,-z+0.5,+1               3   
+18  x-y,-y,z+0.5,+1                4   
+19  y,x,-z,+1                      4   
+20  -y,-x,z,+1                     3   
+21  x,x-y,-z+0.5,+1                3   
+22  -x,-x+y,z+0.5,+1               4   
+23  x-y,-y,-z,+1                   4   
+24  -x+y,y,z,+1                    3   
+
+loop_
+_space_group_symop_spin_lattice.id
+_space_group_symop_spin_lattice.xyzt
+_space_group_symop_spin_lattice.uvw_id
+1   x,y,z,+1                       1   
+2   x,y+0.33325195,z,+1            5   
+3   x,y+0.6665039,z,+1             6   
+4   x+0.33325195,y,z,+1            5   
+5   x+0.33325195,y+0.33325195,z,+1 6   
+6   x+0.33325195,y+0.6665039,z,+1  1   
+7   x+0.6665039,y,z,+1             6   
+8   x+0.6665039,y+0.33325195,z,+1  1   
+9   x+0.6665039,y+0.6665039,z,+1   5   
+
+loop_
+_space_group_symop_spin_Upart.id
+_space_group_symop_spin_Upart.time_reversal
+_space_group_symop_spin_Upart.uvw
+1   1   u,v,w                          
+2   1   -v,-u,-w                       
+3   1   v,u,-w                         
+4   1   -u,-v,w                        
+5   1   -v,u-v,w                       
+6   1   -u+v,-u,w                      
+
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Th1   Th      0.11111    0.22222    0.06200
+Mn1   Mn      0.27767    0.05567    0.25000
+Mn2   Mn      0.00000    0.00000    0.00000
+
+loop_
+_atom_type_symbol
+Th
+Mn
+
+
+loop_
+_atom_site_spin_moment.label
+_atom_site_spin_moment.axis_u
+_atom_site_spin_moment.axis_v
+_atom_site_spin_moment.axis_w
+_atom_site_spin_moment.symmform_uvw
+_atom_site_spin_moment.magnitude
+Mn1      -1.60000    0.00000    0.00000 ?     1.60000
+
+_jmol_precision    5

@@ -1,0 +1,37 @@
+load "c:/temp/bilbao/scif/fsg/fsg_1.0.24.ThMn2.json" packed filter "elements=Mn Th;"
+write c:/temp/bilbao/scif/scif/fsg_1.0.24.scif
+write c:/temp/bilbao/scif/scif/1.0.24.json.png as PNGJ
+load c:/temp/bilbao/scif/scif/fsg_1.0.24.scif packed
+write c:/temp/bilbao/scif/scif/1.0.24.scif.png as PNGJ
+load c:/temp/bilbao/scif/mcif/1.0.24_ThMn2.mcif packed
+write c:/temp/bilbao/scif/scif/1.0.24.mcif.png as PNGJ
+
+load c:/temp/bilbao/scif/fsg/fsg_1.669.KFe(PO3F)2.json packed
+write c:/temp/bilbao/scif/scif/fsg_1.669.scif
+write c:/temp/bilbao/scif/scif/1.669.json.png as PNGJ
+load c:/temp/bilbao/scif/scif/fsg_1.669.scif packed
+write c:/temp/bilbao/scif/scif/1.669.scif.png as PNGJ
+load c:/temp/bilbao/scif/mcif/1.669_KFe(PO3F)2.mcif packed
+write c:/temp/bilbao/scif/scif/1.669.mcif.png as PNGJ
+
+
+load c:/temp/bilbao/scif/fsg/fsg_1.49.Ag2NiO2.json packed
+moveto 0 axis b;zoom 80
+write c:/temp/bilbao/scif/scif/fsg_1.49.scif
+write c:/temp/bilbao/scif/scif/1.49.json.png as PNGJ
+load c:/temp/bilbao/scif/scif/fsg_1.49.scif packed
+moveto 0 axis b;zoom 80
+write c:/temp/bilbao/scif/scif/1.49.scif.png as PNGJ
+load c:/temp/bilbao/scif/mcif/1.49_Ag2NiO2.mcif packed
+moveto 0 axis b;zoom 80
+write c:/temp/bilbao/scif/scif/1.49.mcif.png as PNGJ
+
+
+load "c:/temp/bilbao/scif/fsg/fsg_0.199.Mn3Sn.json" packed 
+write c:/temp/bilbao/scif/scif/fsg_0.199.scif
+write c:/temp/bilbao/scif/scif/0.199.json.png as PNGJ
+load c:/temp/bilbao/scif/scif/fsg_0.199.scif packed
+write c:/temp/bilbao/scif/scif/0.199.scif.png as PNGJ
+load c:/temp/bilbao/scif/mcif/0.199_Mn3Sn.mcif packed
+write c:/temp/bilbao/scif/scif/0.199.mcif.png as PNGJ
+
