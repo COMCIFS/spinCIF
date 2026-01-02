@@ -1,3 +1,58 @@
+var dir= "c:/temp/bilbao/scif/"
+
+vector scale -2.5
+
+var scripts = {
+  "1.49" : "moveto 0 axis b;zoom 80"
+}
+
+var mcifcodes = [
+	"1.0.24_ThMn2",
+	"1.669_KFe(PO3F)2",
+	"1.49_Ag2NiO2",
+	"0.199_Mn3Sn",
+	"2.116_Na3Co2SbO6"
+];
+
+
+function createSCIF(mcifcode) {  //"1.0.24_ThMn2"
+	if (mcifcode.type == "integer") { mcifcode = mcifcodes[mcifcode] }
+	if (!mcifcode) { return }
+	var parts = mcifcode.split("_");
+	if (parts[0] == "fsg") { parts = parts[2].split("."); parts = [ parts[1][-1].join("."), parts[0] ] } 
+	var code = parts[1];
+	var formula = parts[2];
+	var fsgcode = "fsg_" + code + "." + formula;
+
+	var fsgFile =  dir + "fsg/" + fsgcode + ".json";
+	var scifFile = dir + "scif/" + fsgcode + ".scif";
+	var mcifFile = dir + "mcif/" + mcifcode + ".mcif";
+
+	var fsgPNG =  dir + "scif/" + code + ".json.png";
+	var scifPNG = dir + "scif/" + code + ".scif.png";
+	var mcifPNG = dir + "scif/" + code + ".mcif.png";
+
+	var scr = scripts[code];
+pause
+	load @fsgFile packed
+	if (scr) { script inline @scr }
+	write @fsgPNG as PNGJ
+	write @scifFile 
+	load @scifFile packed
+	if (scr) { script inline @scr }
+	write @scifPNG as PNGJ
+	load @mcifFile packed
+	if (scr) { script inline @scr }
+	write @mcifPNG as PNGJ
+
+}
+
+
+createSCIF(1);
+
+
+/**
+
 load "c:/temp/bilbao/scif/fsg/fsg_1.0.24.ThMn2.json" packed filter "elements=Mn Th;"
 write c:/temp/bilbao/scif/scif/fsg_1.0.24.scif
 write c:/temp/bilbao/scif/scif/1.0.24.json.png as PNGJ
@@ -32,6 +87,6 @@ write c:/temp/bilbao/scif/scif/fsg_0.199.scif
 write c:/temp/bilbao/scif/scif/0.199.json.png as PNGJ
 load c:/temp/bilbao/scif/scif/fsg_0.199.scif packed
 write c:/temp/bilbao/scif/scif/0.199.scif.png as PNGJ
-load c:/temp/bilbao/scif/mcif/0.199_Mn3Sn.mcif packed
+load c:/temp/bilbao/	scif/mcif/0.199_Mn3Sn.mcif packed
 write c:/temp/bilbao/scif/scif/0.199.mcif.png as PNGJ
 

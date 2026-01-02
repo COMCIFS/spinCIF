@@ -1,0 +1,117 @@
+#\#CIF_2.0
+#testset/mcif_241130_no2186/3.8_NdZn.mcif 
+# Created by FINDSPINGROUP  version - 0.12.3
+data_5yOhtAoR
+_space_group_spin.transform_spinframe_P_abc  'a,b,c'
+_space_group_spin.collinear_direction_xyz .
+_space_group_spin.coplanar_perp_uvw   . 
+_space_group_spin.rotation_axis  ? 
+_space_group_spin.rotation_angle ?
+
+_space_group_spin.number_SpSG_Chen  ""
+_space_group_spin.name_SpSG_Chen     ?
+
+_space_group_spin.G0_number  '221'
+_space_group_spin.L0_number  '47'
+_space_group_spin.it  '6'
+_space_group_spin.ik  '8'
+_space_group_spin.spin_part_point_group  'm-3m'
+
+_space_group_spin.transform_to_input_Pp  'a,b,c;0,0,0'
+_space_group_spin.transform_to_magnetic_primitive_Pp  'a,b,c;0,0,0'
+_space_group_spin.transform_to_L0std_Pp  'a,b,c;0,0,0'
+_space_group_spin.transform_to_G0std_Pp  'a,b,c;0,0,0'
+
+_cell_length_a            7.338
+_cell_length_b            7.338
+_cell_length_c            7.338
+_cell_angle_alpha        90.000
+_cell_angle_beta         90.000
+_cell_angle_gamma        90.000
+
+loop_
+_space_group_symop_spin_operation.id
+_space_group_symop_spin_operation.xyzt
+_space_group_symop_spin_operation.uvw
+1 x,y,z,+1                                               u,v,w
+2 x,y,-z,+1                                              u,v,w
+3 -x,y,z,+1                                              u,v,w
+4 x,-y,z,+1                                              u,v,w
+5 -y,x,z,-1                                              v,u,w
+6 y,-x,z,-1                                              v,u,w
+7 y,x,z,-1                                               v,u,w
+8 -y,-x,z,-1                                             v,u,w
+9 -z,y,-x,-1                                             w,v,u
+10 z,y,-x,-1                                              w,v,u
+11 z,y,x,-1                                               w,v,u
+12 -z,y,x,-1                                              w,v,u
+13 x,z,-y,-1                                              u,w,v
+14 x,-z,-y,-1                                             u,w,v
+15 x,z,y,-1                                               u,w,v
+16 x,-z,y,-1                                              u,w,v
+17 z,x,y,+1                                               w,u,v
+18 -z,-x,-y,+1                                            w,u,v
+19 z,-x,-y,+1                                             w,u,v
+20 -z,x,y,+1                                              w,u,v
+21 -z,x,-y,+1                                             w,u,v
+22 z,-x,y,+1                                              w,u,v
+23 -z,-x,y,+1                                             w,u,v
+24 z,x,-y,+1                                              w,u,v
+25 y,z,x,+1                                               v,w,u
+26 -y,-z,-x,+1                                            v,w,u
+27 -y,z,-x,+1                                             v,w,u
+28 y,-z,x,+1                                              v,w,u
+29 -y,-z,x,+1                                             v,w,u
+30 y,z,-x,+1                                              v,w,u
+31 y,-z,-x,+1                                             v,w,u
+32 -y,z,x,+1                                              v,w,u
+33 -x,-y,z,+1                                             u,v,w
+34 x,-y,-z,+1                                             u,v,w
+35 -x,y,-z,+1                                             u,v,w
+36 y,-x,-z,-1                                             v,u,w
+37 -y,x,-z,-1                                             v,u,w
+38 -y,-x,-z,-1                                            v,u,w
+39 y,x,-z,-1                                              v,u,w
+40 z,-y,x,-1                                              w,v,u
+41 -z,-y,x,-1                                             w,v,u
+42 -z,-y,-x,-1                                            w,v,u
+43 z,-y,-x,-1                                             w,v,u
+44 -x,-z,y,-1                                             u,w,v
+45 -x,z,y,-1                                              u,w,v
+46 -x,-z,-y,-1                                            u,w,v
+47 -x,z,-y,-1                                             u,w,v
+48 -x,-y,-z,+1                                            u,v,w
+
+loop_
+_space_group_symop_spin_lattice.id
+_space_group_symop_spin_lattice.xyzt
+_space_group_symop_spin_lattice.uvw
+1 x,y,z,+1                                               u,v,w
+2 x+1/2,y,z,-1                                          -u,v,w
+3 x,y+1/2,z,-1                                          u,-v,w
+4 x,y,z+1/2,-1                                          u,v,-w
+5 x,y+1/2,z+1/2,+1                                     u,-v,-w
+6 x+1/2,y+1/2,z,+1                                     -u,-v,w
+7 x+1/2,y,z+1/2,+1                                     -u,v,-w
+8 x+1/2,y+1/2,z+1/2,-1                                -u,-v,-w
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+Nd1	Nd	0.000000	0.000000	0.000000	1.0	8
+Zn1	Zn	0.250000	0.250000	0.250000	1.0	8
+
+
+loop_
+_atom_site_spin_moment.label
+_atom_site_spin_moment.axis_u
+_atom_site_spin_moment.axis_v
+_atom_site_spin_moment.axis_w
+_atom_site_spin_moment.symmform_uvw
+_atom_site_spin_moment.magnitude
+Nd1	1.450000	1.450000	1.450000	Sx,Sy,Sz	2.511

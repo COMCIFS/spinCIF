@@ -1,0 +1,72 @@
+#\#CIF_2.0
+#testset/mcif_241130_no2186/0.1_LaMnO3.mcif 
+# Created by FINDSPINGROUP  version - 0.12.3
+data_5yOhtAoR
+_space_group_spin.transform_spinframe_P_abc  'a,b,c'
+_space_group_spin.collinear_direction_xyz '1,0,0'
+_space_group_spin.coplanar_perp_uvw   . 
+_space_group_spin.rotation_axis  ? 
+_space_group_spin.rotation_angle ?
+
+_space_group_spin.number_SpSG_Chen  ""
+_space_group_spin.name_SpSG_Chen     ?
+
+_space_group_spin.G0_number  '62'
+_space_group_spin.L0_number  '14'
+_space_group_spin.it  '2'
+_space_group_spin.ik  '1'
+_space_group_spin.spin_part_point_group  '∞m'
+
+_space_group_spin.transform_to_input_Pp  'a,b,c;0,0,0'
+_space_group_spin.transform_to_magnetic_primitive_Pp  'a,b,c;0,0,0'
+_space_group_spin.transform_to_L0std_Pp  'b,c,a;0,0,0'
+_space_group_spin.transform_to_G0std_Pp  'a,b,c;0,0,0'
+
+_cell_length_a            5.746
+_cell_length_b            7.664
+_cell_length_c            5.533
+_cell_angle_alpha        90.000
+_cell_angle_beta         90.000
+_cell_angle_gamma        90.000
+
+loop_
+_space_group_symop_spin_operation.id
+_space_group_symop_spin_operation.xyzt
+_space_group_symop_spin_operation.uvw
+1 x,y,z,+1                                               u,v,w
+2 x,-y+1/2,z,-1                                       -u,-v,-w
+3 x+1/2,y,-z+1/2,+1                                      u,v,w
+4 -x+1/2,y+1/2,z+1/2,-1                               -u,-v,-w
+5 -x,y+1/2,-z,-1                                      -u,-v,-w
+6 -x+1/2,-y,z+1/2,+1                                     u,v,w
+7 x+1/2,-y+1/2,-z+1/2,-1                              -u,-v,-w
+8 -x,-y,-z,+1                                            u,v,w
+
+loop_
+_space_group_symop_spin_lattice.id
+_space_group_symop_spin_lattice.xyzt
+_space_group_symop_spin_lattice.uvw
+1 x,y,z,+1                                               u,v,w
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+Mn1	Mn	0.000000	0.000000	0.500000	1.0	4
+La1	La	0.051300	0.250000	0.990500	1.0	4
+O1	O	0.015070	0.750000	0.577700	1.0	4
+O2	O	0.191500	0.540800	0.222700	1.0	8
+
+
+loop_
+_atom_site_spin_moment.label
+_atom_site_spin_moment.axis_u
+_atom_site_spin_moment.axis_v
+_atom_site_spin_moment.axis_w
+_atom_site_spin_moment.symmform_uvw
+_atom_site_spin_moment.magnitude
+Mn1	3.870000	0.000000	0.000000	Sx,Sy,Sz	3.870
