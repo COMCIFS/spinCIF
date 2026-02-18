@@ -2,9 +2,11 @@ A project for the development of a proposed CIF dictionary related to spin space
 
 __Background__
 
-[Spin space groups](https://journals.aps.org/prx/abstract/10.1103/PhysRevX.14.031037) (sometimes referred to as 
-"SSGs", but we will refrain from using that abbreviation here because of the prior use of "SSGs" to describe  [superspace groups](https://landau3.byu.edu/2011%20Stokes.pdf) in the context of incommensurately modulated crystal structures) are
+[Spin space groups](https://journals.aps.org/prx/abstract/10.1103/PhysRevX.14.031037)* are
 joint symmetry groups of spatial and spin operations that leave a magnetic structure unchanged, particularly in materials where spin-orbit coupling (SOC) is negligible. By decoubling spin rotation and spatial rotation, spin space groups provide a more comprehensive classification of magnetic structures. Spin space groups have been found useful for identifying new types of topological electronic states and other aspects of magnetic crystal structure not characterizable by the magnetic space group (MSG) formalism.
+
+*Sometimes referred to as 
+"SSGs", but we will refrain from using that abbreviation here because of the prior use of "SSGs" to describe  [superspace groups](https://landau3.byu.edu/2011%20Stokes.pdf) in the context of incommensurately modulated crystal structures. 
 
 __The Project__
 
