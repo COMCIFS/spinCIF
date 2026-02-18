@@ -8,7 +8,7 @@ joint symmetry groups of spatial and spin operations that leave a magnetic struc
 
 __The Project__
 
-This project aims to create a CIF standard for the description of spin space groups. This standard ("SpinCIF"; core_spin.dic) will import a subset of categories and objects from [core_mag.cif](https://github.com/COMCIFS/cif_mag) and add four spin spacegroup-specific categories, including (preliminary descriptions only): 
+This project aims to create a CIF standard for the description of spin space groups. This standard ("SpinCIF"; core_spin.dic) will import a subset of categories and objects from [core_mag.cif](https://github.com/COMCIFS/cif_mag) and add four spin spacegroup-specific categories, including (_preliminary tags and descriptions only here_): 
 
 **SPACE_GROUP_SPIN**
 
