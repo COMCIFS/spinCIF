@@ -18,7 +18,7 @@ We are using Jmol as a test platform. [Jmol (Jmol.jar) version 16.3.51+](https:/
 
 <img width="844" height="457" alt="1669-split-colored" src="https://github.com/user-attachments/assets/cb963dc6-786b-42b3-8c3e-c6cd8057b1dc" />
 
-A representation of the crystal structure of [KFe(PO3F)2 (MAGNDATA #1.669)](http://webbdcrista2.ehu.es/magndata/index.php?this_label=1.669) showing the crystal structure packed unit cell on the left and the point group of the spin part on the right. This is a PNGJ image -- It can be downloaded and drag-dropped into Jmol as an interactive model. Code:
+A representation of the crystal structure of [KFe(PO3F)2 (MAGNDATA #1.669)](http://webbdcrista2.ehu.es/magndata/index.php?this_label=1.669) showing the crystal structure packed unit cell on the left and the point group of the spin part on the right. This is a PNGJ image -- It can be downloaded and drag-dropped into Jmol as an interactive model. Jmol script:
 
 
   load scif\scif_0.12.3\1.669_KFe(PO3F)2.scif packed; plot spin split; select *; color property vxyz; display vxyz > 0; vector max 3.0
