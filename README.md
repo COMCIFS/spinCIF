@@ -1,4 +1,8 @@
-A project for the development of a proposed CIF dictionary related to spin space groups.
+A project for the development of a _proposed_ CIF dictionary _core_spin.dic_ related to spin space groups.
+
+__NOTE THAT THIS REPOSITORY IS ONLY PRELIMINARY -- ALL DICTIONARY ASPECTS AND FILE FORMATS ARE SUBJECT TO CHANGE__
+
+Last updated 2026.02.21 hansonr@stolaf.edu
 
 __Background__
 
@@ -7,6 +11,17 @@ joint symmetry groups of spatial and spin operations that leave a magnetic struc
 
 *Sometimes referred to as 
 "SSGs", but we will refrain from using that abbreviation here because of the prior use of "SSGs" to describe  [superspace groups](https://landau3.byu.edu/2011%20Stokes.pdf) in the context of incommensurately modulated crystal structures. 
+
+Sample SpinCIF test files can be found at https://github.com/COMCIFS/spinCIF/tree/main/test and, again, those files may or may not be the latest version.
+
+We are using Jmol as a test platform. [Jmol (Jmol.jar) version 16.3.49+](https://sourceforge.net/projects/jmol) and double-precision [Jmol-SwingJS (JmolD.jar) versions 16.3.50+](https://github.com/BobHanson/Jmol-SwingJS/tree/master/dist) will read scif files created by [FINDSPINGROUP](https://findspingroup.com), though that site is not updated as often as the Jmol sites. Check development notes at the [Jmol download page](https://sourceforge.net/p/jmol/code/HEAD/tree/trunk/Jmol/src/org/jmol/viewer/Jmol.properties) regarding version capabilities.
+
+load C:\Users\hanso\git\SpinCif-private\scif\scif_0.12.3\1.669_KFe(PO3F)2.scif packed
+modelkit spacegroup >-b,-a,c> packed	
+
+<img width="946" height="638" alt="1669splitcolored" src="https://github.com/user-attachments/assets/f2cb47da-33e1-4a76-a46c-d3d4e856b1ee" />
+
+A representation of the crystal structure of [KFe(PO3F)2 (MAGNDATA #1.669)](http://webbdcrista2.ehu.es/magndata/index.php?this_label=1.669) showing the crystal structure packed unit cell on the left and the point group of the spin part on the right. This is a PNGJ image -- It can be downloaded and drag-dropped into Jmol as an interactive model.
 
 __The Project__
 
