@@ -14,15 +14,16 @@ joint symmetry groups of spatial and spin operations that leave a magnetic struc
 
 Sample SpinCIF test files can be found at https://github.com/COMCIFS/spinCIF/tree/main/test and, again, those files may or may not be the latest version.
 
-We are using Jmol as a test platform. [Jmol (Jmol.jar) version 16.3.49+](https://sourceforge.net/projects/jmol) and double-precision [Jmol-SwingJS (JmolD.jar) versions 16.3.50+](https://github.com/BobHanson/Jmol-SwingJS/tree/master/dist) will read scif files created by [FINDSPINGROUP](https://findspingroup.com), though that site is not updated as often as the Jmol sites. Check development notes at the [Jmol download page](https://sourceforge.net/p/jmol/code/HEAD/tree/trunk/Jmol/src/org/jmol/viewer/Jmol.properties) regarding version capabilities.
+We are using Jmol as a test platform. [Jmol (Jmol.jar) version 16.3.51+](https://sourceforge.net/projects/jmol) and double-precision [Jmol-SwingJS (JmolD.jar) versions 16.3.52+](https://github.com/BobHanson/Jmol-SwingJS/tree/master/dist) will read scif files created by [FINDSPINGROUP](https://findspingroup.com), though that site is not updated as often as the Jmol sites. Check development notes at the [Jmol download page](https://sourceforge.net/p/jmol/code/HEAD/tree/trunk/Jmol/src/org/jmol/viewer/Jmol.properties) regarding version capabilities.
 
-load C:\Users\hanso\git\SpinCif-private\scif\scif_0.12.3\1.669_KFe(PO3F)2.scif packed
-modelkit spacegroup >-b,-a,c> packed	
+<img width="844" height="457" alt="1669-split-colored" src="https://github.com/user-attachments/assets/cb963dc6-786b-42b3-8c3e-c6cd8057b1dc" />
 
-<img width="946" height="638" alt="1669splitcolored" src="https://github.com/user-attachments/assets/f2cb47da-33e1-4a76-a46c-d3d4e856b1ee" />
+A representation of the crystal structure of [KFe(PO3F)2 (MAGNDATA #1.669)](http://webbdcrista2.ehu.es/magndata/index.php?this_label=1.669) showing the crystal structure packed unit cell on the left and the point group of the spin part on the right. This is a PNGJ image -- It can be downloaded and drag-dropped into Jmol as an interactive model. Code:
 
-A representation of the crystal structure of [KFe(PO3F)2 (MAGNDATA #1.669)](http://webbdcrista2.ehu.es/magndata/index.php?this_label=1.669) showing the crystal structure packed unit cell on the left and the point group of the spin part on the right. This is a PNGJ image -- It can be downloaded and drag-dropped into Jmol as an interactive model.
 
+  load scif\scif_0.12.3\1.669_KFe(PO3F)2.scif packed; plot spin split; select *; color property vxyz; display vxyz > 0; vector max 3.0
+
+ 
 __The Project__
 
 This project aims to create a CIF standard for the description of spin space groups. This standard ("SpinCIF"; core_spin.dic) will import a subset of categories and objects from [core_mag.cif](https://github.com/COMCIFS/cif_mag) and add four spin spacegroup-specific categories, including (_preliminary tags and descriptions only here_): 
